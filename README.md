@@ -1,4 +1,4 @@
-# yt-devmeetup-vue
+# Vue.js + Vuetify + Firebase FULL PROJECT
 
 > A dev mettup application build with Vue + Vuetify + Firebase
 
