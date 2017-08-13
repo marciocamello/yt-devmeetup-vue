@@ -21,10 +21,10 @@ new Vue({
   created () {
     firebase.initializeApp({
       apiKey: FirebaseAuth.apiKey,
-      authDomain: FirebaseAuth.apiKey,
-      databaseURL: FirebaseAuth.apiKey,
-      projectId: FirebaseAuth.apiKey,
-      storageBucket: FirebaseAuth.apiKey
+      authDomain: FirebaseAuth.authDomain,
+      databaseURL: FirebaseAuth.databaseURL,
+      projectId: FirebaseAuth.projectId,
+      storageBucket: FirebaseAuth.storageBucket
     })
   }
 })
