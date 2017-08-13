@@ -12,7 +12,17 @@
 npm install
 
 # add firebase settings object
-/src/auth/firebase.js
+create file in /src/auth/firebase.js
+
+add your's firebase params here and save
+
+export default {
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: ''
+}
 
 # serve with hot reload at localhost:8080
 npm run dev
