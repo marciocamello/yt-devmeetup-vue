@@ -7,15 +7,12 @@
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
-
-# add firebase settings object
+### Firebase settings
 create file in /src/auth/firebase.js
 
 add your's firebase params here and save
 
+``` bash
 export default {
   apiKey: '',
   authDomain: '',
@@ -23,14 +20,29 @@ export default {
   projectId: '',
   storageBucket: ''
 }
+```
 
-# serve with hot reload at localhost:8080
+### install dependencies
+
+``` bash
+npm install
+```
+
+###  serve with hot reload at localhost:8080
+
+``` bash
 npm run dev
+```
 
-# build for production with minification
+###  build for production with minification
+
+``` bash
 npm run build
+```
 
-# build for production and view the bundle analyzer report
+###  build for production and view the bundle analyzer report
+
+``` bash
 npm run build --report
 ```
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
