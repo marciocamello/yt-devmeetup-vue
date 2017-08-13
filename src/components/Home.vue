@@ -32,20 +32,9 @@
 
 <script>
   export default {
-    data () {
-      return {
-        meetups: [
-          {
-            imageUrl: 'http://www.hotel-discount.com/wp-content/uploads/New_york_times_square-terabass.jpg',
-            id: 'edfrgertert123',
-            title: 'Meetup in New York'
-          },
-          {
-            imageUrl: 'https://media.architecturaldigest.com/photos/5931758bf368f9234dedb534/master/pass/Paris_Personalities_GettyImages-546896176-2.jpg',
-            id: 'ertert23234234',
-            title: 'Meetup in Paris'
-          }
-        ]
+    computed: {
+      meetups () {
+        return this.$store.getters.featuredMeetups
       }
     },
     methods: {
