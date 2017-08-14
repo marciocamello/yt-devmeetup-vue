@@ -1,6 +1,6 @@
 <template>
   <v-app standalone>
-    <v-navigation-drawer v-model="sideNav" temporary light overflow absolute>
+    <v-navigation-drawer v-model="sideNav" temporary>
       <v-list>
         <v-list-tile
           v-for="item in menuItems"
@@ -14,7 +14,9 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar dark class="primary">
-      <v-toolbar-side-icon @click.native.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
+      <v-toolbar-side-icon
+        @click.native.stop="sideNav = !sideNav"
+        class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <router-link to="/" tag="span" style="cursor: pointer">DevMeetup</router-link>
       </v-toolbar-title>
