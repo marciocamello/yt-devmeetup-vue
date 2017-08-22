@@ -80,6 +80,7 @@
     methods: {
       onLogout () {
         this.$store.dispatch('logout')
+        this.$router.go('/')
       }
     }
   }
