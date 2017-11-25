@@ -3,7 +3,7 @@
 > A dev mettup application build with Vue + Vuetify + Firebase
 
 ## Demo
-> https://websy.cf/
+> https://marciocamello.github.io/yt-devmeetup-vue/
 
 ## Build Setup
 
